@@ -2,7 +2,7 @@
 ## Problems
 - We implementing a bulk renting car
 - We provide car list API which is contains car title, photo and price
-- We provide coupon list API which is contains code and amount
+- We provide discount list API which is contains code and amount
 - Create a list of cars and cart checkout
 - You can refactor anyway you want
 
