@@ -1,7 +1,42 @@
-# Getting Started with Create React App
+# DRIVEHUB REACT INTERVIEW TEST
+## Problems
+- We implementing a bulk renting car
+- We provide car list API which is contains car title, photo and price
+- We provide coupon list API which is contains code and amount
+- Create a list of cars and cart checkout
+- You can refactor anyway you want
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Wireframe
+- Have CarList Component on the left and Cart Component on the right
+![Wireframe](wireframe.png)
 
+
+## Requirements
+- As a User, I want to pick many cars as I want
+- As a User, I want to see car photo that I picked
+- As a User, I want to change amount of each car
+- As a User, I want to see total amount of the cart
+- As a User, I want to apply a discount coupon
+- As a User, I want to refresh the page and the cart is not clear !!!
+- You can use any css tool or framework 
+- Calculate price on the frontend
+
+## APIs
+- Car List `https://cdn.contentful.com/spaces/vveq832fsd73/entries?content_type=car`
+- Discount List `https://cdn.contentful.com/spaces/vveq832fsd73/entries?content_type=discount`
+- access_token `VPmo2U661gTnhMVx0pc0-CtahNg_aqS5DuneLtYfO1o`
+- Just put access_token as a params or put it in request header `Authorization: Bearer ${access_token}` should be fine
+- API doc `https://www.contentful.com/developers/docs/references/content-delivery-api/#/introduction/authentication`
+
+## Nice to Have
+- Unit Tests
+- Component reusable
+- Responsive Design
+- Sorting by title or price
+<br/><br/>
+### Zip the project and send back to us.
+### PS. Please ignore `The Blackhole` aka `node_modules` before zipping :D.
+<br/><br/>
 ## Available Scripts
 
 In the project directory, you can run:
@@ -29,15 +64,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
