@@ -1,14 +1,24 @@
+import logo from "./logo.svg";
+
 import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Body from "./components/body";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Body />
-      <Footer />
+      <div className="app-header">
+        <img src={logo} alt="logo"></img>
+        <span>Drivehub</span>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <div>Car list</div>
+        <div>Cart</div>
+      </div>
+      <div className="app-footer">FOOTER</div>
     </div>
   );
 }
