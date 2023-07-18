@@ -6,8 +6,7 @@ function App() {
   return (
     <div>
       <div className="app-header">
-        <img src={logo} alt="logo"></img>
-        <span>Drivehub</span>
+        <img src={logo} alt="logo" /> <span>Drivehub</span>
       </div>
       <div
         style={{
