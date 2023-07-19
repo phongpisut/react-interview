@@ -27,8 +27,7 @@
 - Follow the design from wireframe
 
 ## Wireframe
-You can find wireframe link from your email.
-Please login with google to access figma.
+You can find wireframe link from your email, please login with google to access figma. <br/>
 If you can't access or not receive the mail, please contact us (developers@drivehub.co)
 
 ## APIs
