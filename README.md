@@ -27,9 +27,9 @@
 - Follow the design from wireframe
 
 ## Wireframe
-
-- Have CarList Component on the left and Cart Component on the right
-  ![Wireframe](wireframe.png)
+You can find wireframe link from your email.
+Please login with google to access figma.
+If you can't access or not receive the mail, please contact us (developers@drivehub.co)
 
 ## APIs
 
