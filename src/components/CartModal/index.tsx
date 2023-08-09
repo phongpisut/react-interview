@@ -12,7 +12,7 @@ const CartModal = React.forwardRef(
     const [discount, setDiscount] = useState(0);
     const [grandTotal, setGrandTotal] = useState(0);
 
-    const { data, mutate, isLoading } = useGetDiscount();
+    const { data, mutate } = useGetDiscount();
 
     const onIncrease = useCallback(
       async (index: number) => {
