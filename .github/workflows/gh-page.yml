@@ -6,6 +6,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Check Env
+        run: | 
+          echo ${{ secrets.REACT_APP_TOKEN}}
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
