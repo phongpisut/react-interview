@@ -2,6 +2,7 @@
   "name": "react-interview",
   "version": "0.1.0",
   "author": "Phongpisut Meemuk",
+  "homepage":"https://phongpisut.github.io/react-interview",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
