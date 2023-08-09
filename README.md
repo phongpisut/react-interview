@@ -1,5 +1,9 @@
 # DRIVEHUB REACT INTERVIEW TEST
 
+## Note
+
+- add Environment Variable (.env) named "REACT_APP_TOKEN" for API fetching token
+
 ## Problems
 
 - We implementing a bulk renting car
@@ -27,6 +31,7 @@
 - Follow the design from wireframe
 
 ## Wireframe
+
 You can find wireframe link from your email, please login with google to access figma. <br/>
 If you can't access or not receive the mail, please contact us (developers@drivehub.co)
 
