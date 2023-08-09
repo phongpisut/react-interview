@@ -2,7 +2,8 @@
 
 ## Note
 
-- add Environment Variable (.env) named "REACT_APP_TOKEN" for API fetching token
+- Add Environment Variable (.env) named "REACT_APP_TOKEN" for API fetching token
+- Visit At https://phongpisut.github.io/react-interview/
 
 ## Problems
 
